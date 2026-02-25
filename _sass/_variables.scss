@@ -1,27 +1,11 @@
+scss
+// ShaftScout brand colors
+$brand-color: #2C5F2D;      // Forest green
+$secondary-color: #E1C699;   // Sand
+$text-color: #2D2D2D;        // Charcoal
+$background-color: #ffffff;  // White
 
-//
-// VARIABLES
-//
 
-// Colors
-$blue: #4183C4;
-
-// Grays
-$black: #000;
-$darkerGray: #222;
-$darkGray: #333;
-$gray: #666;
-$lightGray: #eee;
-$white: #fff;
-
-// Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
-
-// Mobile breakpoints
-@mixin mobile {
-  @media screen and (max-width: 640px) {
-    @content;
-  }
-}
+// Fonts
+$base-font-family: 'Open Sans', sans-serif;
+$heading-font-family: 'Montserrat', sans-serif;
