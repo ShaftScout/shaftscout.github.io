@@ -84,3 +84,15 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+  yaml
+# Navigation
+nav:
+  - name: Home
+    link: /
+  - name: About
+    link: /about/
+  - name: App
+    link: /app/
+  - name: Blog
+    link: /blog/
